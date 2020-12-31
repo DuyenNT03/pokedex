@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/50/69/YP4p5V.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgba(238, 84, 24, 0.7);
+    padding: 40px;
+    margin:  100px 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 70px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 10px;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: center;
+    clip-path: polygon(0% 20%,
+                       20% 0%,
+                       100% 0%,
+                       100% 0%,
+                       100% 100%,
+                       100% 100%,
+                       0% 100%,
+                       0% 100%);
+    
+    
+}
+
+.card:hover {
+    background-color: rgb(238, 237, 224);
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.card-subtitle {
+    margin-top: 5px;
+    color: violet;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.card-image {
+    background-color: wheat;
+    height: 180px;
+    clip-path: polygon(0% 5%,
+                      5% 0%,
+                      95% 0%,
+                      100% 5%,
+                      100% 95%,
+                      95% 100%,
+                      5% 100%,
+                      0% 95%);
+}
+#load_more {
+    width: 200px;
+    padding: 30px;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: coral;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Time new roman';
+    opacity: 0.8;
+
+}
+#load_more:hover {
+    color: rgb(0, 255, 85);
+    opacity: 1;
+    
+}
